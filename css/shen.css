@@ -16,21 +16,21 @@ a:hover{
 }
 
 /* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url('../logo.JPG');
+.bgimg-1{
+  background-image: url('../img/logo.JPG');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("../pexels-maxime-francis-2246476.jpg");
+  background-image: url("../img/pexels-maxime-francis-2246476.jpg");
   min-height: 400px;
 }
 
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("../33.JPG");
+  background-image: url("../img/pexels-maxime-francis-2246476.jpg");
   min-height: 400px;
   
 }
@@ -94,7 +94,7 @@ div[class^='bar-']{
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+  .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
   }
